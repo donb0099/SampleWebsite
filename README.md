@@ -2,5 +2,5 @@
     This is a heading
     </heading>
     
-    <page> and this is a page </page>
+    <p> and this is a paragraph </p>
     
