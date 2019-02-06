@@ -1,16 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>HTML Tags</title>
     <meta charset="utf-8">
   </head>
   <body>
-
+  <header>
     <h1>Important HTML tags</h1>
     <a href="https://www.flickr.com/photos/jdhancock/3814523970" target="_blank"
      style="text-decoration: none;">
     <img src="images/storm_trooper_tagged.jpg" alt="Tagged Storm Trooper">
-
+  </header>
+  
+  <div>
+  
     <p>
       This page is designed as a quick reference for some of the common tags
       covered in <a href="https://learnenough.com/html"><em>Learn
@@ -18,9 +21,11 @@
       learn how to make HTML <em>tables</em> via <code>table</code> and
       related tags.
     </p>
-
+  </div>
+  
+  <div>
     <p>
-      The tables below don't include all HTML tags, but they do list many of
+      <span>The tables below don't include all HTML tags,</span> but they do list many of
       the most important ones.
     </p>
     
@@ -123,22 +128,24 @@
         </td>
         <td><code>table</code></td>
       </tr>      
+
+      <tr>
+        <td><code>!--</code></td>
+        <td>HTML comment</td>
+        <td>add a non displaying comment</td>
+        <td>
+          <code>
+            &lt;!--not rendered text--&gt;
+          </code>
+        </td>
+        <td><!--this is unrendered text--></td>
+      </tr>      
+
       
     </table>
-    
-    <table>
-      {border-spacing: 15px}
-      <tr>
-        <th>number 1</th>
-        <th>number 2</th>
-        <th>number 3</th>
-      </tr>
-      <tr>
-        <td>111111111111111</td>
-        <td>21</td>
-        <td>321</td>
-      </tr>
-      
-    </table>
+    </div>
+
+
+
   </body> 
 </html>
